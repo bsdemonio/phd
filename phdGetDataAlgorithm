@@ -63,7 +63,7 @@ class ExtractData:
                avtemp = fullPaperwithcount[element];
                average.append([element,avtemp]);
             print(average); 
-            print '-----------------------';
+            print '---------------------------------';
          del array[:]
          del unique[:]
          #os.remove(path);
