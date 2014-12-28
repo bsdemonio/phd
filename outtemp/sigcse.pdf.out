@@ -1,0 +1,989 @@
+Collaboration and the importance for novices in learning java 
+
+computer programming 
+
+ 
+
+Carole A. Bagley, Ph.D. 
+
+University of St. Thomas 
+
+2115 Summit Ave.  OSS 416 
+
+St. Paul, MN  55105  
+
+651-962-5397  
+
+cabagley@stthomas.edu
+
+ 
+
+C. Candace Chou, Ph.D. 
+
+University of St. Thomas 
+
+1000 LaSalle Ave., MOH 217. 
+
+MPLS, MN  55403 
+
+651-962-4814 
+
+ccchou@stthomas.edu 
+
+ABSTRACT 
+The authors propose that a correlation exists between 
+collaboration and success by novices when learning computer 
+programming.  Research in an introductory course was conducted 
+that focused on answering several questions:  At what time in 
+their learning java programming and algorithmic problem solving, 
+would a student benefit best by collaboration?  At what time 
+during the problem solving process would the learner benefit 
+greatest by collaboration?  Would the student benefit greater by 
+collaborating with 1 student in the class, a group, or an expert 
+mentor/coach?  What cognitive and affective strategies are used 
+during various types of collaboration?  Does collaboration 
+increase problem solving performance by females?   
+This research will advance fundamental knowledge of teaching 
+and learning of computer science.  It will further the 
+understanding of problem solving and strategies used in learning 
+computer programming and whether collaboration is important.   
+
+Categories and Subject Descriptors 
+K.3.1  [Computer  Uses  in  Education]:    Collaborative  learning; 
+[Computer  and  Information  Science  Education]:   
+K.3.2 
+Computer science education 
+
+General Terms 
+Algorithms, Design, Human Factors, Languages  
+
+Keywords 
+Pedagogy, CS1/2, CS Ed Research, Collaboration, Gender, 
+Cognitive strategies, Affective strategies, Problem solving 
+1.  INTRODUCTION 
+A technology-literate population is a critical national asset in the 
+global market, and it is necessary for every person in the U.S. to 
+“be all they can be, technically” [5] [9]. The cold facts are that 
+few U.S. citizens are selecting technical careers and females are 
+selecting these careers in far fewer numbers.  
+
+The number of females who work as systems analysts, 
+programmers, and post-secondary computer science teachers has 
+
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not  made  or  distributed  for  profit  or  commercial  advantage  and  that 
+copies  bear  this  notice  and  the  full  citation  on  the  first  page.  To  copy 
+otherwise,  or  republish,  to  post  on  servers  or  to  redistribute  to  lists, 
+requires prior specific permission and/or a fee.     
+ITiCSE Conference’07, Dundee, Scotland. 
+ 
+
+decreased substantially [9]. The number of females pursuing 
+computer science degrees has declined considerably in the last 
+twenty years [9].  In fact, the widely cited statistics from the “The 
+Incredible Shrinking Pipeline Unlikely to Reverse” [4], indicate 
+that the percentage of females entering computer science 
+programs and careers in the US has declined precipitously during 
+the past decade and suggest this is unlikely to change. 
+
+Impersonal environments and guarded behavior, and the creation 
+and maintenance of informal hierarchy resulting in competitive 
+behaviors seem to prevail in computer science classrooms. These 
+communication patterns lead to a defensive climate, characterized 
+by competitiveness rather than cooperation; judgments about 
+others and superiority; and neutrality rather than empathy.  
+Collaborative and cooperative learning environments are effective 
+teaching strategies for technology learning by all learners because 
+they promote learning through social interaction with others. 
+Providing role models and mentors for female and minority 
+students is another way to increase their interest in technology 
+careers [3]. Recognition of the different approaches to learning by 
+gender may also encourage the participation of female students. 
+
+2.  LITERATURE REVIEW 
+Problem solving is an important part of learning computer 
+science, requiring the learner to “use” information and knowledge 
+and requiring one to use “critical thinking skills”.  Deek [6] 
+reviewed twelve different models of problem solving developed 
+this century. Principal among these is Polya’s [10] famous work 
+on problem solving.  The problem solving taxonomy developed 
+by Zanzali [18] for mathematics, based on Polya’s work, provides 
+problem solving mastery levels that the authors adapted to the 
+learning of computer programming and used to determine 
+important times when collaboration is helpful.   
+Deek and McHugh [6] describe the computer programming 
+problem solving process as a 6-step model:  Formulating the 
+problem, Planning the solution, Designing the solution, 
+Translation, Testing, & Delivery.  Deek and McHugh write that 
+programmers must develop skills that include: learning the 
+language, composing new programs, comprehending, reusing & 
+integrating existing programs, debugging, testing, modifying, & 
+documenting the programs they write.  These are cognitive tasks 
+related to language and require knowledge of the syntax & 
+semantics of the programming language [12].  Other cognitive 
+problem solving tasks (problem understanding, analysis, solution 
+design) require domain, strategic & tactical knowledge, as well as 
+practical knowledge of the programming. 
+
+What does a successful problem solver know that an unsuccessful 
+problem solver does not know [7]?  First, research on problem 
+solving [7] [14] [15] points to the crucial role of domain-specific 
+knowledge, that is, to the problem solver’s skill.  Unfortunately, 
+mastering each component skill is not enough to promote non-
+routine problem solving. Students need to know not only what to 
+do, but also when to do it. Therefore, a second ingredient, 
+suggested by research on intelligence [15] and on the 
+development of learning strategies, is the ability to control and 
+monitor cognitive processes [7].  This aspect of problem-solving 
+ability is the problem solver’s metaskill or Meta-cognition.  A 
+third prerequisite for successful problem solving [11] suggests 
+that the problem solver’s will is a significant factor. 
+
+Problem solving, when done as a collaboration among two or 
+more individuals may increase learning of java programming and 
+problem solving skills, however, little research has investigated 
+this interaction.  In a classic study of group IQ, conducted by 
+Williams and Sternberg [17], social effectiveness was a better 
+predictor of group performance than individual IQ’s.  
+
+The  authors  believe  that  stronger  problem  solvers  can  be 
+developed  through  collaboration  rather  than  working  alone  and 
+that  this  will  benefit  all  learners  including  men,  women  and 
+minorities. 
+  A  study  of  group  processes  of  professional 
+programmer  teams  has  shown  collaboration  and  communication 
+among team members to be especially heavy during the planning 
+and  requirements  analysis  phases  of  problem  solving,  less 
+frequent  during  design  and  coding,  and  more  frequent  again 
+during  the  deployment  and  maintenance  phases  [8]  [16].  Is  it 
+possible  that  the  use  of  collaboration  by  novices  in  learning 
+programming  and  problem  solving  processes  mirrors  those 
+experiences of professional programmer teams?  Is it possible that 
+novices  benefit  by  collaborating  at  some  stages  of  the  computer 
+program problem solving process more than others?   
+3.  PROBLEM STATEMENT 
+Communication and problem-solving skills have become 
+increasingly important skills in the changing economy and work 
+place [13].  Mayer [7] examined the role of cognitive, metacog-
+nitive, and motivational skills in problem solving. He concluded 
+that when a student fails to solve a problem, lack of knowledge is 
+not always the source of failure. Metacognitively, a student can be 
+highly knowledgeable but does not know how to devise, monitor, 
+and revise a solution plan.  On the motivational side, a student can 
+also fail because of a lack of confidence or interest. 
+Reflecting on communication and collaboration practices used in 
+the context of problem solving in the classroom is the first step to 
+changing the culture and appeal of computer science.  This must 
+begin in the lower division courses.  
+3.1  Research Questions 
+Basic concepts of problem solving and algorithmic design have 
+been taught during the conduct of this research.  Four stages of 
+learning during the course culminate with the ability to write a 
+program that requires:   
+
+Stage 1) sequential programming & problem solving concepts 
+Stage 2) planning/use of conditional & repetition algorithms 
+Stage 3) methods & module decomposition 
+Stage 4) transfer of learning to a more complex program  
+
+Each assignment (stage) required the students to use the following 
+six problem-solving steps:  
+
+Step 1)  conceptualization/ brainstorming and formulating the 
+problem and requirements  
+Step 2)  plan the system solution 
+Step 3)  design each component/module and walkthrough 
+Step 4)  detailed coding and preliminary testing 
+Step 5)  full scale testing and revision 
+Step 6)  documentation and presentation  
+
+The following research questions were used to structure the 
+experiment and will be answered in Section 5: 
+
+1)  At what stage (1-4)  in their learning java programming, 
+
+would a student benefit best by collaboration?   
+
+2)  At what step (1-6) in the algorithmic problem 
+
+solving/software engineering process would a student 
+benefit by collaboration? 
+
+3)  Would a student benefit greater by working by them self 
+or in collaborating with 1 student in the class, a group, or 
+an expert mentor/coach?  
+
+4)  Do students show significant cognitive gains when 
+
+engaged in a collaborative learning environment and 
+which cognitive strategies are enhanced during the 
+collaborative problem solving?  
+
+5)  Do students show significant affective gains when engaged 
+
+in a collaborative learning environment and which 
+affective strategies are enhanced during the collaborative 
+problem solving?  
+Is collaboration more important for males or females?   
+
+6) 
+
+4.  METHODOLOGY/DATA COLLECTION 
+Over three semesters, 69 students were randomly assigned to one 
+of four different group types and worked in this group during 
+class and while completing lab work and 9 assignments outside of 
+class.  The group types were: self, pair, group, or mentor.  
+Students were randomly assigned to eliminate prior experience 
+and GPA as conflicts.  Each group type began working together 
+after Asg. 1 which was approximately 2 weeks into the course.   
+The self group type worked independently.  The pair groups were 
+two students from the same class. Groups collaborated with a 
+team of 3-4 students.  Mentor groups used a mentor/expert to 
+guide the student.  The self & mentor group types consisted of 6 
+groups each (1 student/group) with the pair group having 12 
+groups (2 students/group for total of 24 students) and the group 
+type having 11 groups (3 students/group for total of 33 students).   
+Students who completed the java programming course were 
+trained as mentors to work with the mentor group students. 
+The research employed both quantitative and qualitative methods. 
+SPSS was used to determine the significant cognitive and 
+affective strategies developed by the students and the impact on 
+collaboration. The cognitive coding scheme was based on Bloom 
+[2] and Deek and McHugh [7]. The affective coding scheme was 
+based on research by Anderson and Krathwohl [1]. 
+The quantitative data included the Collaboration Satisfaction 
+questionnaire (http://personal.stthomas.edu/cabagley/ITiCSE/ 
+CollaborationSatisfactionSurvey.html), the Collaboration and 
+Java programming questionnaire (http://personal.stthomas.edu/ 
+cabagley/ITiCSE/CollaborationandJavaProgramming.html) and 
+
+the instructor’s grading based on the assignment rubric. Each 
+student completed the two questionnaires at four stages (1-4) to 
+determine the perceived effect collaboration had on the student’s 
+learning and motivation, the student’s perception of when 
+collaboration was most important, and to determine cognitive and 
+affective strategies that were enhanced by collaboration.  Females 
+in all groups were analyzed independently to determine whether 
+collaboration had a significant effect. 
+The qualitative data gathered at four stages included: student 
+reflections, interviews, and instructor reflection.  
+
+5.  RESULTS 
+5.1  At what problem solving step and stage in 
+learning is collaboration most important? 
+The mean rating over all steps of the problem solving process 
+(steps 1 – 6) indicated that stage 4/asg9 was the most important 
+time to collaborate (stage 1: M = 7.13, stage 2: M = 7.29, stage 3: 
+M = 6.93, stage 4: M = 7.77).   
+The mean rating for step 1 (conceptualization/brainstorming and 
+formulating the problem & requirements) is highest (M=8.04), 
+indicating it is more important to collaborate at the first step when 
+beginning an assignment. The mean is lowest at step 6 (M=5.39) 
+indicating it to be a less important time to collaborate. 
+
+Table 1. Importance of Collaboration Means 
+
+Stage 
+
+/ 
+
+Asg # 
+
+  
+
+1 / 2  Mean 
+2 / 4  Mean 
+3 / 7  Mean 
+4 / 9  Mean 
+TTL  Mean 
+
+Problem Solving Step 
+
+3 
+
+4 
+
+5 
+
+6 
+
+2 
+
+1 
+
+Over
+- all 
+8.44  7.50  6.61  7.22  7.44  5.56  7.13 
+7.94  7.69  7.94  7.50  7.44  5.25  7.29 
+7.35  7.12  7.88  7.00  7.18  5.06  6.93 
+8.39  8.17  8.61  7.83  7.94  5.67  7.77 
+8.04  7.62  7.75  7.39  7.51  5.39 
+ 
+
+Step 3 in the problem solving process (design each component/ 
+module) showed a significant difference in mean across all 4 
+stages of learning, rating the importance of collaboration (1-10 
+scale with 1 being least important) on different assignments (stage 
+1/asg 2, stage 2/asg 4, stage 3/ asg 7 and stage 4/asg 9), F(3, 
+65)=2.98, p< 0,05. The mean rating for stage 1/asg 2 (M= 6.61, 
+SD= 2.12) was significantly lower than stage 4/ asg 9 (M=8.61, 
+SD=1.5). This indicated that students found it more important to 
+collaborate at step 3 of the problem solving process on a 
+complicated program (stage 4/asg 9) than on an easier assignment 
+that was completed earlier in the course. 
+
+Although there was no significant difference between female and 
+male students, female students did generally rate the importance 
+of collaboration higher than male students. 
+5.2  Grouping type and greatest benefit?  
+Students in groups reported working fewer total hours (M= 5.6, 
+SD= 2.53) than other groups, F(3, 64 )=7.54, p< 0.001). Students 
+spent fewer hours working alone when they worked in a group 
+(M= 2.67, SD= 2.63) or with pairs ( M= 2.55, SD= 3.4), F(3, 
+66)=18.64, p<0.001. Students reported a higher course grade (p< 
+0.05) when working in pairs (M=2.63, SD= 1.36) and mentors 
+(M= 0.80, SD= 0.45), F(3,68)=7.54, p<0.001. 
+
+Table 2.  Grade Average and Mean Work Hours by Groups 
+
+Grouping 
+self 
+pair 
+group 
+mentor 
+Total 
+
+  
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+Grade 
+
+Total 
+hours 
+4.00  7.6667 
+2.63  8.3200 
+3.51  5.6357 
+.80  12.900 
+3.03  7.2463 
+
+Work 
+together 
+
+Work 
+alone 
+.0000  8.0000 
+5.3704  3.0000 
+2.9643  2.6714 
+1.1000  11.800 
+3.6848  3.8214 
+
+Table 3. Course Grades 
+
+Grade 
+Code 
+
+A 
+1 
+
+A- 
+2 
+
+B+  B 
+3 
+4 
+
+B 
+5 
+
+B- 
+6 
+
+C+  C 
+7 
+8 
+
+Female students (M=9.9) spent more hours working in groups or 
+alone than male students (M=6.45),  F(1, 66)=9.55, p<0.1. 
+
+5.3  Cognitive strategies 
+Questionnaires, course grade & instructor observation indicated 
+gain in factual, conceptual, procedural knowledge & metacogni-
+tion.  Use of specific strategies was different between groups. 
+
+5.3.1  Factual Knowledge 
+There was a difference between groups (self, pairs, groups, and 
+mentor) over all four stages of learning for questions 7 & 8 from 
+the Collaboration and Java programming questionnaire. For 
+question 7 (I used a template without changes to write my 
+program), pairs (M=3.83) F(3, 64)=6.05, p=0.001, reported the 
+highest means. Students working alone showed a low mean 
+(M=1.29) and likely didn’t rely on factual knowledge. Regardless, 
+overall mean scores is low (M=4.47), indicating most students did 
+not rely on a template. 
+For question 8 (I use a template with minor changes), there was a 
+significantly higher mean F(3, 65)=3.79, p<0.05, for students with 
+a mentor (M=7.4) & groups (M=7.2).  
+Question 9 (I used a template but went beyond) showed a higher 
+mean score (M=7.5) between different groups indicating most 
+used planning and problem solving skills.   
+
+Table 4.  Factual Knowledge Mean Scores by Grouping 
+
+Grouping 
+self 
+pair 
+group 
+mentor 
+Total 
+
+ 
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+Q7 
+
+1.29 
+3.83 
+5.82 
+3.00 
+4.47 
+
+Q8 
+5.29 
+4.92 
+7.21 
+7.40 
+6.23 
+
+Q9 
+6.57 
+6.65 
+8.06 
+9.00 
+7.50 
+
+Q10 
+
+1.00 
+5.31 
+2.61 
+1.00 
+3.21 
+
+5.3.2 Conceptual Knowledge 
+There was a significant difference between different groups for 
+questions 11, 18, & 19 from the Collaboration and Java 
+Programming questionnaire. The mean scores for question 11 (I 
+learned by memorizing the new concepts) was the lowest of all 
+conceptual knowledge strategies (M=4.24). Students in groups 
+reported significantly higher mean scores (M=5.48) than other 
+groups, F(3, 64)=7.46. It could mean that students come to the 
+group discussion with conceptual preparation. 
+
+For question 18 (I created multiple algorithms), students in groups 
+show significantly higher mean scores (M=6.36) than other 
+
+groups, F(3, 64)=3.37, p<0.05, therefore, groups are more 
+inclined to try out multiple algorithms. 
+
+For question 19 (I was able to present the project orally), students 
+in groups showed significantly higher mean scores (M=6.56) than 
+other grouping types, F(3, 59)=3.89, p<0.05.  This indicated that 
+groups were more likely to be confident in presenting orally. 
+
+Table 5.  Mean Scores of Conceptual Knowledge by Group   
+
+Grouping 
+self 
+pair 
+group 
+mentor 
+Total 
+
+  
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+Q11 
+
+Q18 
+
+Q19 
+
+2.17 
+3.38 
+5.48 
+2.60 
+4.24 
+
+3.00 
+5.63 
+6.36 
+4.40 
+5.66 
+
+3.83 
+4.91 
+6.56 
+1.00 
+5.46 
+
+Although, there was no significant difference with any of the 
+grouping types for question 17 (I checked requirements and 
+adapted the algorithm continuously), there was a gender 
+difference.  This indicated that females were more likely to 
+believe in the importance of checking requirements & revising 
+algorithms. 
+
+Table 6.  Mean scores of conceptual knowledge by gender 
+
+Gender         
+male 
+female 
+Total 
+
+ 
+
+Mean 
+Mean 
+Mean 
+
+Q17 
+
+7.02 
+8.94 
+7.47 
+
+5.3.3  Procedural Knowledge 
+There was a significant difference among groups for questions 27, 
+28, & 29 from the Collaboration and Java programming 
+questionnaire. For question 27 (I performed frequent checks), 
+groups have higher means (M=9.09) when performing frequent 
+checks to make sure that they are moving in the right direction, 
+F(3, 64)=9.28, p<0.001. For question 28 (I tried different 
+strategies), groups (M=7.39) demonstrate a higher rate in trying 
+out different strategies before solving a problem, F(3, 64)=6.41, 
+p=0.001. For question 29 (I hypothesized and observed the 
+effect), groups again (M=7.42) show a higher rate in coming up 
+with a hypothesis & observing its effects, F(3, 64)=4.59, p<0.01. 
+There was a gender difference for question 26 (I analyzed the 
+worked samples) indicating that regardless of grouping, females 
+believe it is important to analyze & compare the problem and 
+solution to worked samples. 
+
+Table 7.  Mean Scores of Procedural Knowledge by Group   
+
+Grouping 
+self 
+group 
+mentor 
+Total 
+
+  
+Mean 
+Mean 
+Mean 
+Mean 
+
+Q26 
+
+Q27 
+
+Q28 
+
+Q29 
+
+8.50 
+7.91 
+8.60 
+8.01 
+
+5.33 
+9.09 
+5.80 
+7.82 
+
+4.00 
+7.39 
+4.40 
+6.13 
+
+6.00 
+7.42 
+3.40 
+6.46 
+
+Table 8.  Mean Scores of Procedural Knowledge by Gender 
+
+Gender 
+male 
+female 
+Total 
+
+  
+
+  Mean 
+Mean 
+Mean 
+
+Q26 
+
+7.71 
+9.00 
+8.01 
+
+5.3.4  Metacognition 
+Student rating of the strategies employed in the metacognition 
+category is high. It indicates that java programming requires a fair 
+amount of planning and testing. For question 31(I seek 
+information from others and brainstorm to solve the problem), 
+students in pairs (M=8.17) or groups (M=8.39) show a 
+significantly higher rating, F(3, 64)=6.19, p=0.001. For question 
+32 (I devise strategies for problem-solving), self, pairs, or groups 
+have significantly higher ratings. For question 34 (I conduct a 
+full-scale testing and created new/better solution), students 
+working by themselves (M=8.33) have a significantly higher 
+rating, F(3, 64)=6.13, p=0.001.  
+There was a significant difference between gender (females:  
+M=8.94, males: M = 7.19, p = .01) for question 34 indicating that 
+females believe testing produces a better solution. 
+
+Table 9.  Mean Scores of Metacognition by Group 
+
+  
+
+Q31 
+
+Q32 
+
+Q34 
+
+Grouping 
+self 
+pair 
+group 
+mentor 
+Total 
+
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+4.83 
+8.17 
+8.39 
+6.80 
+7.88 
+
+8.17 
+7.67 
+8.18 
+5.40 
+7.79 
+
+ 
+Table 10.  Mean Scores of Metacognition by Gender 
+
+Gender 
+male 
+female 
+Total 
+
+  
+
+Mean 
+Mean 
+Mean 
+
+Q34 
+
+8.33 
+7.71 
+8.03 
+3.40 
+7.60 
+
+7.19 
+8.94 
+7.60 
+
+ 
+5.4  Affective strategies:  Impact of 
+collaboration on learning and motivation  
+The results from the Collaboration Satisfaction questionnaire, 
+indicated that pairs (M= 4.83, SD=0.37) and groups (M= 4.54, 
+SD= 0.7) believe that collaboration is important in increasing 
+learning and motivation. Students in the self category reported a 
+lower mean score (M=1.3, SD= 0.58). The impact of grouping in 
+the ranking of learning and motivation is significant (p< .001). 
+There was no significant gender difference.  
+  
+Table 11.  Learning and Motivation Means by Grouping 
+motivation 
+
+learning 
+
+Grouping 
+self 
+pair 
+group 
+mentor 
+Total 
+
+ 
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+1.33 
+4.83 
+4.54 
+3.75 
+4.47 
+
+1.00 
+4.93 
+4.66 
+4.50 
+4.59 
+
+There was a significant difference among groups for questions 36, 
+37, 38, & 40 from the Collaboration and Java programming 
+questionnaire. Students in pairs or groups expressed strong 
+agreement in listening to partner(s) (#36) and talking about 
+concepts/facts related to the problem (#37), p<0.001. Groups 
+showed higher means in debating with respect and valuing their 
+contribution (#38), p<0.001. Groups and with a mentor indicate a 
+significantly higher agreement in buying into the solution of the 
+problem and believing it was the best solution (#40). 
+
+Table 12.  Mean Scores of Affective Strategies by Groups 
+
+[2]  Bloom, B., Englehart, M. Furst, E., Hill, W., & Krathwohl, 
+
+Grouping 
+
+  
+
+Q36 
+
+Q37 
+
+Q38 
+
+Q39 
+
+Q40 
+
+self 
+pair 
+group 
+mentor 
+Total 
+
+Mean 
+Mean 
+Mean 
+Mean 
+Mean 
+
+3.20 
+9.29 
+8.58 
+6.33 
+8.32 
+
+3.17 
+8.50 
+8.55 
+7.25 
+7.97 
+
+2.40 
+6.29 
+8.55 
+6.33 
+7.14 
+
+8.67 
+8.38 
+8.61 
+6.40 
+8.37 
+
+4.80 
+6.65 
+8.21 
+8.80 
+7.45 
+
+5.5  Collaboration and gender differences 
+Although there was no significant difference, the female means 
+indicate that they rate the importance of collaboration higher.  
+Although only 20-25% of the students are female, the course 
+mean grades for females are higher.  Those students working in 
+pairs or with a mentor received higher overall course grades 
+regardless of gender.  Females spent a significantly greater 
+amount of time than males when working in a group or alone.   
+
+Table 13.  Grade Average and Mean Work Hours by Gender 
+
+  
+Gender 
+Male 
+Mean 
+Female  Mean 
+Total 
+Mean 
+
+Work 
+together 
+3.3472 
+4.9000 
+3.6848 
+
+Work 
+alone 
+3.2500 
+5.7500 
+3.8214 
+
+Grade 
+2.96 
+3.24 
+3.03 
+
+Total 
+hours 
+6.4953 
+9.9000 
+7.2463 
+
+6.  CONCLUSION 
+Collaboration is an important pedagogy to use in teaching 
+computer science and in performing java programming.  This 
+study indicates that the more complex a problem, the greater is the 
+importance of collaboration.  The most important time for 
+collaboration in the problem solving/programming process is at 
+steps 1(brainstorming and formulating the problem) and 3 
+(designing individual components/modules). 
+Groups tried out multiple algorithms and frequently reflected on a 
+variety of strategies.  Course grades were significantly highest for 
+pairs or those working with a mentor regardless of gender.  
+Therefore, can the extra time spent by groups be justified?   
+Conceptual knowledge was higher for groups in understanding the 
+importance of coming to the group with the concepts prior to 
+discussion and experimentation of multiple strategies.  Groups 
+were more confident in presenting orally.   
+Procedural learning was significantly highest for groups 
+particularly in performing frequent checks, trying out different 
+strategies and hypothesizing and watching the effects.  Females 
+showed a significantly high level of these procedural strategies.   
+Metacognitive strategies of brainstorming and devising strategies 
+in pairs were significantly high.  Females showed a significant 
+difference in creating a better solution after performing testing.  
+The affective characteristics of motivation to learn and the belief 
+that learning increases with collaboration were stronger in groups.  
+There was no significant gender difference.  
+
+7.  REFERENCES 
+[1]  Anderson, L.W., & Krathwohl (Eds.) A Taxonomy for 
+
+Learning,Teaching, and Assessing: A Revision of Bloom's 
+Taxonomy of Educational Objectives. NY: Longman, 2001. 
+
+ 
+
+D. Taxonomy of educational objectives: The classification of 
+educational goals. Handbook I: Cognitive domain. New 
+York, Toronto: Longmans, Green, 1956.  
+
+[3]  Brown, B. L. Women and Minorities in High-Tech Careers. 
+
+ERIC DIGEST NO. 226, 2001. 
+
+[4]  Camp, T. Women in computer sciences Reversing the trend. 
+
+http://www-2.cs.cmu.edu/~women/resources/ 
+aroundTheWeb/hostedPapers/Syllabus-Camp.pdf, 2001. 
+
+[5]  Datz, T. “Degrees of Change” CIO Magazine 15 October.  
+
+www.cio.com/archive/101504/school.html, 2004. 
+
+[6]  Deek, F.P., & McHugh, J. Problem Solving and Cognitive 
+
+Foundations for Program Development: An Integrated 
+Model. Proceedings of the Sixth International Conference on 
+Computer Based Learning in Science (CBLIS), (pp. 266-
+271). Nicosia, Cyprus. http://cblis.utc.sk/cblis-cd-
+old/2003/2.PartA/Papers/ICT/Deek.pdf, 2003.  
+
+[7]  Mayer, R. Cognitive, metacognitive, and motivational 
+
+aspects of problem solving.  Instructional Science, 26, 49–
+63. Kluwer Academic Publishers. The Netherlands, 
+http://www.colorado.edu/physics/phys4810/phys4810_fa04/4
+810_readings/mayer.pdf, 1998.   
+
+[8]  Nosek, J.T.  The Case for Collaborative Programming. By J. 
+T. Nosek. Communications of the ACM. Volume 41. Issue 3. 
+Pages 105-108, 1998. 
+
+[9]  NSF. The Science and Engineering Workforce :Realizing 
+
+America’s Potential, Rpt.14.Arlington,VA:NSF.  www.nsf. 
+gov/nsb/documents/2003/nsb0369/nsb0369.pdf, 2003. 
+
+[10] Polya, G How to Solve It: A New Aspect of Mathematical 
+Method,2nd Edition. Princeton, NJ:Princeton Press, 1957. 
+
+[11] Renninger, K, Hidi, S. & Krapp, A., eds. The Role of Interest 
+in Learning and Development. Hillsdale, NJ: Erlbaum, 1992. 
+
+[12] Shneiderman, B., (1980) Software psychology: Human 
+
+factors in computer and information systems. Cambridge, 
+MA: Winthrop Publishers. 
+
+[13] Secretary’s Commission on Achieving Necessary Skills 
+
+(SCANS). What work requires of schools A SCANS Report 
+for America 2000. Washington DC: US Labor Department.  
+http://wdr.doleta.gov/SCANS/whatwork/whatwork.pdf.  
+[14] Smith, L.B. The socialization of females with regard to a 
+
+technology-related career. Meridian: A Middle School 
+Computer Technologies Journal, 3(2). Retrieved 1/05 from: 
+http://www.ncsu.edu/meridian/sum2000/ career/, 2000. 
+
+[15] Sternberg, R. & Frensch, P., eds. Complex Problem Solving: 
+
+Principles & Mechanisms. Hillsdale, NJ: Erlbaum, 1991. 
+
+[16] Williams, L., Kessler, R. Pair Programming Illuminated. By 
+
+L. Williams, R. Kessler. Addison Wesley, 2003. 
+
+[17] Williams, W., & Sternberg, R. J.  Group intelligence:  Why 
+some groups are better than others. Intelligence, 12, 1988. 
+[18] Zanzali, N. et.al. Evaluating the levels of problem solving 
+abilities in mathematics. Retrieved January 10, 2005, from 
+http://math.unipa.it/~grim/Jzanzalinam.pdf, 2004.
+
+

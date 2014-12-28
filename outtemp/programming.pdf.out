@@ -1,0 +1,55 @@
+CONCEPT MAPS IN INTELLIGENT TUTORS FOR
+
+PROGRAMMING*
+
+STUDENT POSTER ABSTRACT
+
+Adrian Maries, Ramapo College of New Jersey
+
+amaries@ramapo.edu
+
+Advisor: Dr. Amruth Kumar, Ramapo College of New Jersey
+
+501 Ramapo Valley Road, Mahwah, NJ 07430
+
+amruth@ramapo.edu
+
+At Ramapo College of New Jersey, intelligent tutors, called problets, are being developed
+for programming concepts. We want to integrate concept maps into these tutors. They will be
+used for discovery learning, active learning, navigation, problem selection and to open the student
+model.
+Discovery Learning: In problets, students explore a concept map that has already been built for
+them. They click on a leaf node to expand its children (if any) or click on an intermediate node
+to  collapse  its  subtree.  Initially  the  tree  can  be
+displayed to any depth. 
+Active Learning: In problets, we plan to have the
+user build their own concept maps. Currently we
+provide the students with a list of concepts (in the
+form of nodes) and have them connect the nodes,
+thus  creating  the  relationships  between  the
+concepts.  These  features  should  improve  the
+student’s  structural  knowledge.  We  plan  to  test
+this hypothesis.
+Navigation:  Concept  maps  can  help  with
+navigation in the tutor by allowing the user to go
+from  a  node  in  the  tree  directly  to  the  concept
+he/she wants to review. They can direct the user to a section where he/she can read about the
+specific concept, practice solving problems or get tested.
+Open Student Model: Concept maps can also be used to open the student model to inspection.
+In the concept map, each node is shaded proportional to the level of proficiency of the student on
+the concept. For example, if the student is working on loops consisting of for, while and do loops,
+as soon as he/she has finished for loops the loops node is shaded 33%.
+Problem Selection: Concept maps can be used to let the user choose the concept on which to
+solve the next problem. Since each node represents a concept, the student can clearly see the
+concepts that need additional practice and click on the corresponding nodes. The student is not
+done until all the concepts are learned, i.e., all the nodes are shaded a minimum of say, 70%. Will
+giving the student the power to select the next problem rather than deciding it for him/her help
+improve learning or the pace of learning? 
+
+___________________________________________
+
+* Copyright is held by the author/owner. 
+
+54
+
+

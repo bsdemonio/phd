@@ -1,0 +1,75 @@
+#!/usr/bin/python
+import glob;
+import pyPdf;
+import subprocess;
+import os;
+import time;
+from collections import Counter;
+import re;
+class ExtractData:
+   def __init__(self, directory):
+      self.directory = directory;
+   
+   def getFiles(self):
+     from os import listdir;
+     from os.path import isfile, join;
+     onlyfiles = [ f for f in listdir(self.directory) if isfile(join(self.directory,f)) ];
+     return onlyfiles;
+
+   def readPDF(self,files):
+      from StringIO import StringIO;
+      for name in files:
+         validateContent = "";
+         route = '/Users/alancalvillo/python/phd/pdfminer-20140328/tools/pdf2txt.py';
+         #sp_args = ['python', route, '-p', '1', '-o', 'outtemp/'+name+'.out', self.directory + '/' + name];
+         sp_args = ['python', route,  '-o', 'outtemp/'+name+'.out', self.directory + '/' + name];
+         sp = subprocess.Popen(sp_args);
+         time.sleep(3);
+         ins = open( 'outtemp/'+name+'.out', "r" );
+         array = [];
+         for line in ins:
+             array.append( line );
+         ins.close(); 
+         cont =0;
+         if (len(array) > 2):
+            unique = [];
+            fullPaper = [];
+            for line in array:
+               split = line.split( );
+               for element in split:
+                  stringWithNumbers = element;
+                  stringWithoutNumbers=''.join(c if c not in map(str,range(0,10)) else "" for c in stringWithNumbers);
+                  element = stringWithoutNumbers;
+                  re.sub(r'[^\w]', ' ', element);
+                  punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~''';
+                  no_punct = "";
+                  my_str = element;
+                  for char in my_str:
+                     if char not in punctuations:
+                        no_punct = no_punct + char
+                  element = no_punct;
+                  if len(element) > 3:
+                     fullPaper.append(element);
+                     if element in unique:
+                        cont=cont +1;
+                     else:
+                        unique.append(element);
+            print len(fullPaper);
+            print len(unique);
+            average = [];
+            fullPaperwithcount = Counter(fullPaper);
+            #print(fullPaperwithcount);
+            for element in unique:
+               avtemp = fullPaperwithcount[element];
+               average.append([element,avtemp]);
+            print(average); 
+            print '-----------------------';
+         del array[:]
+         del unique[:]
+         #os.remove(path);
+         #time.sleep(5)
+
+data = ExtractData("development");
+files = data.getFiles();
+#print len(files)
+data.readPDF(files);
